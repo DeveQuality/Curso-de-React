@@ -1,10 +1,8 @@
 {
-  "$schema": "https://json.schemastore.org/package.json",
-  "name": "minha-primeiro-aula-react",
+  "name": "iniciandoo-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -20,7 +18,7 @@
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
-
+  
   "devDependencies": {
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
