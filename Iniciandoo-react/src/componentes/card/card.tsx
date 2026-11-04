@@ -1,7 +1,7 @@
 import Button from '../Button/Button'
 import styles from  './card.module.css'
 
-function Card({titulo , descricao}){
+function Card({titulo,descricao}){
     
     return(
 
