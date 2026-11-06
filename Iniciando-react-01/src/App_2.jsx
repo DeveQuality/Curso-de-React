@@ -14,14 +14,22 @@ function App() {
 
   return (
     <>
-      <Button/>
+      <Button  texto="Salvar"  desabilitado/>
       <Button />
-      <Button/>
+      <Button  desabilitado/>
       <Card titulo="te amo vida" descricao="descricao 1"/>
       <Card titulo="A vida e boa" descricao="descricao 2"/>
       <Card titulo="Eu amo programar" descricao="descricao 3"/>
     </>
   )
+
+
+
+
+
+
+
+  
 }
 
 export default App

@@ -12,3 +12,6 @@
 .title{
     color: green;
 }
+.desabilitado{
+    opacity: .5;
+}
