@@ -6,9 +6,9 @@ function Button({texto="Meu botao default" , desabilitado}){        /* funcao co
         console.log('ola mundo tudo bem , estou aprendendo react' , texto)      
     }
 
-    window.addEventListener('resize' , ()=>{
+    /* window.addEventListener('resize' , ()=>{
         console.log('resized')
-    })
+    }) */
 
     return(
         //<button className={styles.btn} disabled={desabilitado}> 
@@ -22,9 +22,14 @@ function Button({texto="Meu botao default" , desabilitado}){        /* funcao co
             }
             >
              
-            <span className={styles.title}>{texto} - 
+            {/* <span className={styles.title}>
+                {texto} - 
                 {desabilitado} - 
                 {typeof desabilitado}
+            </span>  */}
+
+            <span className={styles.title}>
+                {texto} 
             </span> 
 
         </button>
