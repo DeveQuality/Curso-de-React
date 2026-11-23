@@ -21,8 +21,8 @@ function App() {
   return (
     <>
       <Button  
-        texto="Incrementariando"   
-        clicando={incrementar}
+        texto="Incrementar"   
+        onClick={incrementar}
       />
 
       <Button  

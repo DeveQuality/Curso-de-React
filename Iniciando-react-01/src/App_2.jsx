@@ -8,32 +8,23 @@ import Button from "./componentes/Button/Button"
 import Card from "./componentes/card/card"
 
 
-
-
 function App() {
 
-
   function buttonclicado(){
-    console.log("botao clicado")
+    console.log('botao clicado')
   }
 
   return (
     <>
       <Button  texto="Salvar 1"  desabilitado/>
-      <Button  texto="Salvar 2" onclick={() => buttonclicado()} />
+      <Button  texto="Salvar 2" onClick={() => buttonclicado()} />
+      <Button  texto="Salvar 3" />
       <Button  desabilitado/>
       <Card titulo="te amo vida" descricao="descricao 1"/>
       <Card titulo="A vida e boa" descricao="descricao 2"/>
       <Card titulo="Eu amo programar" descricao="descricao 3"/>
     </>
   )
-
-
-
-
-
-
-
   
 }
 
